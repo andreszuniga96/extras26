@@ -81,7 +81,7 @@ export default function App() {
 
     return {
       unique,
-      totalPossible: 80,
+      totalPossible: 80, // 20 players * 4 variants
       duplicates,
       percentage: ((unique / 80) * 100).toFixed(1),
       variantsCount
